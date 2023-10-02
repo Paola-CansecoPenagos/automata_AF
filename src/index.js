@@ -6,7 +6,11 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <h1>Procesador de palabras</h1>
+    </div>
     <App />
   </React.StrictMode>
 );

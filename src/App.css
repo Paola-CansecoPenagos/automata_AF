@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +34,63 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  text-align: center;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+.line-container line {
+  stroke-width: 2;
+}
+
+.estado.activo circle {
+  fill: #58D68D; /* Color verde cuando el estado está activo */
+  stroke: #000; /* Color del borde negro */
+}
+
+.amarillo {
+  fill: #F9E79F; /* Color amarillo cuando el estado está inactivo o la cadena es inválida */
+  stroke: #000; /* Color del borde negro */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Ajusta la distancia desde la parte superior */
+}
+
+.input-field {
+  /* Estilos para el campo de entrada */
+  /* Agrega aquí cualquier otro estilo que desees para el campo de entrada */
+  margin-bottom: 10px;
+}
+
+.estados-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajusta la distancia desde la parte superior */
+}
+
+.estado-container {
+  margin: 10px; /* Ajusta el espacio entre los círculos */
+}
+
